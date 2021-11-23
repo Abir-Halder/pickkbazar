@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      
+    <script type="text/javascript" src="jquery.js"></script>
+    
+    
+
+    <title>pickbazar| Grocry</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light jon-header">
+  
+          <a class="navbar-brand " href="#"> <span> <img src="PickBazar.png" alt=""> </span> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+          <div class="collapse navbar-collapse ml-5 justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav jon-menu ml-5 mb-2 mb-lg-0">
+             
+                    <button class=" border-white" ><li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle  text-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-apple-alt"></i>  Grocery </a>
+                      <ul class="dropdown-menu down-item" aria-labelledby="navbarDropdown ">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-apple-alt"></i>  Grocery</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-birthday-cake"></i>  Bakery</a></li>
+                        <li><a class="dropdown-item" href="#"> <i class="fas fa-highlighter"></i>  Makeup</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-shopping-bag"></i>  Bage</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-tshirt"></i>  Clothing</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-couch"></i>  Furniture</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fab fa-accessible-icon"></i>  Daily Needs</a></li>
+                      </ul>
+                    </li>
+                  </button>
+                </span>
+
+                <!--nav item start-->
+
+                  <li class="nav-item  item-right mt-2 ">
+                    <a class="nav-link "  href="#">Shop</a>
+                  </li>
+                  <li class="nav-item ml-5 mt-2 ">
+                    <a class="nav-link" href="#">Offers</a>
+                  </li>
+                  <li class="nav-item  ml-5 mt-2">
+                    <a class="nav-link " href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item  ml-5 mt-2">
+                    <a class="nav-link " href="#">Contact</a>
+                  </li>
+                </ul>                       
+
+              <!--*model Start--> 
+
+              <button type="button" class="btn btn-primary ml-5" data-toggle="modal" data-target="#exampleModal">
+                  join
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header mx-auto d-block">
+                        <h5 class="modal-title text-center" id="exampleModalLabel">
+                          <span class=""> <img class="" src="PickBazar.png" alt=""> </span>
+                          <br>
+                           Login with your email & password</h5>
+                      </div>
+
+
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group mb-2 mt-2 ">
+                            <label for="formGroupExampleInput">Email</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="customer@demo.com">
+                          </div>
+                          <div class="form-group mb-2 ">
+                            <label for="formGroupExampleInput2">Password
+                            </label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="password">
+                          </div>
+                        </form>
+
+                      </div>
+                      <div class="modal-footer  model-footer">
+                        <button type="button" class="btn btn-success btn-lg btn-block">Join</button>
+
+                        <h5 class="text-center">-------------------------------Or----------------------------------</h5>
+
+                        <button type="button" class="btn btn-primary btn-lg btn-block "><a href="#">Loging with Google</a></button>
+                        <button type="button" class="btn btn-secondary btn-lg btn-block "><a href="#">Loging with Mobile </a></button>
+                      </div>
+
+           <!--*model end--> 
+          </div>
+       </nav>
+      </div>               
+      <!--nav item  end-->
+
+
+      <!--slider start-->
+
+      <section class="slider-section">
+        <div class="container">
+            <div class="row">
+                <div class="slider-caption w-52 mx-auto text-dark text-center">
+                    <h4>Groceries Delivered in 90 Minute</h4>
+                    <p>Get your healthy foods & snacks delivered at your doorsteps all day everyday search</p>
+                </div>
+            </div>
+
+            <div class="row">
+               <form class="d-flex w-50 mx-auto input-class">
+                <input class="form-control me-2 p-3 " type="search" placeholder="Search your products form here" aria-label="Search">
+                <button class="btn btn-outline btn-info" type="submit">Search</button>
+              </form>
+            </div>
+           
+            </div>
+        </div>
+
+    </section>
+    <!--slider end-->
+
+    <!--feature start-->
+
+    <section class="feature-section py-5">   
+      <div class="container-fluid">
+          <div class="row">
+
+              <div class="col-lg-3 mb-4">
+                  <div class="feature-item d-flex align-items-center">
+                      <div class="left-img-sec h-100 w-25%">
+                          <img src="offer-1.png" alt="">
+                      </div>
+                  </div>
+              </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="feature-item d-flex align-items-center">
+                        <div class="left-img-sec h-100 w-25%">
+                            <img src="offer-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+              <div class="col-lg-3 mb-4">
+                  <div class="feature-item d-flex align-items-center">
+                      <div class="left-img-sec h-100 w-25%">
+                          <img src="offer-3.png" alt="">
+                      </div>
+                  </div>
+               </div>
+
+              <div class="col-lg-3 mb-4">
+                  <div class="feature-item d-flex align-items-center">
+                      <div class="left-img-sec h-100 w-30%">
+                          <img src="offer-4.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <!--feature end-->
+
+
+  <!-- menu section starts  -->
+
+  <section class="menu-section">
+    <div class="container-fluid">
+      <div class="row partha">
+        <div class="col-lg-2  bg-light ">
+          <nav class ="navbar sticky-top">
+            <ul class ="nav navbar-nav p-2">
+            <li class ="nav-item">
+              <a class ="nav-link text-secondary mb-2" href="#"> <i class="fas fa-apple-alt"></i>  Fruits & vegetables  </a>
+            </li>
+
+            <li class ="nav-item dropdown mb-2">
+              <div class="dropdown">
+                  <a class="nav-link dropdown-toggle text-secondary  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                   <i class="fas fa-fish"></i>  Meat & Fish</a>
+                  <ul class="dropdown-menu down-item  " aria-labelledby="navbarDropdown ">
+                    <li><a class="dropdown-item text-info" href="#"><i class="fas fa-fish"></i>  Fresh fish   </a></li>
+                    <li><a class="dropdown-item text-info" href="#"><i class="fas fa-balance-scale-right"></i>  meat    </a></li>
+                  </ul>
+               </div>
+           </li>
+
+            <li class ="nav-item dropdown mb-2">
+              <div class="dropdown">
+                  <a class="nav-link dropdown-toggle text-secondary " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-cookie-bite"></i>  Snacks </a>
+                   <ul class="dropdown-menu down-item  text-info mb-1" aria-labelledby="navbarDropdown ">
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-cookie"></i>  Nuts Biscuits</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-ice-cream"></i>  Chocalates</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-prescription-bottle"></i>  Crips</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-brain"></i>  Noodles & Pasta</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fab fa-sourcetree"></i>  Souce</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-drum"></i>  Soup</a></li>
+                  </ul>
+               </div>
+            </li>
+
+            <li class ="nav-item dropdown mb-2">
+              <div class="dropdown">
+                  <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-baby"></i>  Pet Care </a>
+                <ul class="dropdown-menu down-item" aria-labelledby="navbarDropdown ">
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-hamburger"></i>  Cat food</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-hotdog"></i>  </i> Dog Food</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"> <i class="far fa-keyboard"></i>  Accessories</a></li> 
+                </ul>
+               </div>
+            </li>
+
+            <li class ="nav-item dropdown mb-2">
+              <div class="dropdown">
+                  <a class="nav-link dropdown-toggle  text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-chalkboard"></i> Home & Cleaning </a>
+                    <ul class="dropdown-menu down-item" aria-labelledby="navbarDropdown ">
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-air-freshener"></i>  Air Fresher</a></li>
+                    <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-chalkboard-teacher"></i>  Cleaning Product</a></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class ="nav-item dropdown mb-2">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle  text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          <i class="fab fa-dailymotion"></i>  Dairy</a>
+                        <ul class="dropdown-menu down-item " aria-labelledby="navbarDropdown ">
+                          <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-apple-alt"></i>  Milk</a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"> <i class="fas fa-cheese"></i>  Butter</a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-egg"></i>  Egg</a></li>
+                        </ul>
+                    </div>
+               </li>
+
+               <li class ="nav-item dropdown mb-2">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle  text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          <i class="fas fa-anchor"></i>  Cooking</a>
+                        <ul class="dropdown-menu down-item" aria-labelledby="navbarDropdown ">
+                          <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-fill-drip"></i>  Oill</a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-concierge-bell"></i>  Rice</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                  <li class ="nav-item dropdown mb-2">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle  text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          <i class="fas fa-coffee"></i>  Breakfast</a>
+                        <ul class="dropdown-menu down-item" aria-labelledby="navbarDropdown ">
+                          <li><a class="dropdown-item text-info mb-1 " href="#"><i class="fas fa-apple-alt"></i>Bread</a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-archway"></i>  Cereal</a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"><i class="fas fa-cocktail"></i>  Jam</a></li>
+                        </ul>
+                    </div>
+                  </li>
+
+                  <li class ="nav-item dropdown mb-2" last-nav-item>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle  text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          <i class="fas fa-apple-alt"></i> Healthe & Beauty </a>
+                        <ul class="dropdown-menu down-item" aria-labelledby="navbarDropdown ">
+                          <li><a class="dropdown-item text-info mb-1  " href="#"><i class="fas fa-bahai"></i> Beauty </a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"> <i class="fas fa-bath"></i>   Bath</a></li>
+                          <li><a class="dropdown-item text-info mb-1  " href="#"><i class="fas fa-apple-alt"></i>  Cream </a></li>
+                          <li><a class="dropdown-item text-info mb-1" href="#"> <i class="fas fa-feather"></i>  Facecare</a></li>
+                        </ul>
+                    </div>
+               </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="col-lg-10">
+          <div class="row">
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3  product-item-total   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product17.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span></button> </span>
+                       <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                      <span class="input-group-btn">
+                       <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span></button> </span>
+                     </div>
+                 </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="product19.jpg" class="img-fluid" alt="">
+                </div>
+                <h6 class="mt-4 ml-3">something</h6>
+               <p class="ml-3">$39.99</p>
+               <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                  <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+              </div>
+             </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3  ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product23.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+              </div>
+             </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+               <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product8.jpg" class="img-fluid" alt="">
+               </div>
+                <h6 class="mt-4 ml-3">something</h6>
+                <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+             </div>
+          </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product11.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product13.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product8.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product9.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product10.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product11.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product12.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product13.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product10.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product20.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product23.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product17.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product18.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+              </div>
+             </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product19.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product20.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product21.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product22.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product22.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product24.jpg" class="img-fluid" alt="">
+               </div>
+               <h6 class="mt-4 ml-3">something</h6>
+              <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 d-flex flex-column align-items-center justify-content-center my-3   ">
+              <div class="card border-0 bg-light mb-2">
+               <div class="card-body">
+                 <img src="product25.jpg" class="img-fluid" alt="">
+               </div>
+                <h6 class="mt-4 ml-3">something</h6>
+                <p class="ml-3">$39.99</p>
+              <div class="cart"><i class="fa fa-shopping-cart"></i></div> 
+              <div class="input-group">
+                <span class="input-group-btn">
+                    <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                      <span class="glyphicon glyphicon-minus">-</span>
+                    </button>
+                </span>
+                  <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100">
+                  <span class="input-group-btn">
+                    <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                        <span class="glyphicon glyphicon-plus">+</span>
+                    </button>
+                </span>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+     </div>
+  </section>
+
+  <!--modal item details-->
+
+  <div class="container model">
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal4">
+              <i class="fas fa-shopping-bag"></i>    Item
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+
+
+<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-slideout modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Show product detail</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span >Item</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p> Ipsum passage and generate your own text using any number of characters, words, sentences or paragraphs. Commonly used as placeholder text in the graphic and print industries, Lorem Ipsum's origins extend far back to a scrambled Latin passage from Cicero in the middle ages.</p>
+
+    </div>
+  </div>
+</div>
+ <!--*model end--> 
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+
+  <script> 
+      
+      var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+          var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+            return new bootstrap.Dropdown(dropdownToggleEl)
+          })
+      
+  </script>
+
+
+  <script>       
+            $(document).ready(function(){
+
+            var quantitiy=0;
+              $('.quantity-right-plus').click(function(e){
+                    
+                    // Stop acting like a button
+                    e.preventDefault();
+                    // Get the field name
+                    var quantity = parseInt($('#quantity').val());
+                    
+                    // If is not undefined
+                        
+                        $('#quantity').val(quantity + 1);
+
+                      
+                        // Increment
+                    
+                });
+
+                $('.quantity-left-minus').click(function(e){
+                    // Stop acting like a button
+                    e.preventDefault();
+                    // Get the field name
+                    var quantity = parseInt($('#quantity').val());
+                    
+                    // If is not undefined
+                  
+                        // Increment
+                        if(quantity>0){
+                        $('#quantity').val(quantity - 1);
+                        }
+                });
+                
+            });
+                                            
+      </script>
+
+  </body>
+</html>
